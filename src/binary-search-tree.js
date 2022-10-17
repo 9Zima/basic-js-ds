@@ -13,9 +13,10 @@ class BinarySearchTree {
     // remove line with error and write your code here
   }
 
-  add(/* data */) {
-    throw new NotImplementedError('Not implemented');
-    // remove line with error and write your code here
+  add(data) {
+    if (this.node.root !== undefined)
+    this.node.root = 
+    this.node.value = data;
   }
 
   has(/* data */) {
